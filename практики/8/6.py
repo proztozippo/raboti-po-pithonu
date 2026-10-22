@@ -7,6 +7,7 @@ fff = 1
 while True:
     if fff == 4:
         print("вы не уложились в 3 попытки")
+        print("загаданное число: ", b)
         break
     a = int(input(f"попытка {fff}:"))
     if a == b and fff == 1:
